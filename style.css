@@ -17,6 +17,12 @@ body{
     background-image: radial-gradient(rgb(46, 46, 46), rgb(20, 20, 20));
     transition: 0.5s ease;
     position: relative;
+    overflow: hidden;
+}
+
+#video{
+    width: 100%;
+    opacity: 0.35;
 }
 h1{
     color: white;
