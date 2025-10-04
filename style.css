@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --opacidade: 1;
+    --blur-do-fundo: 0px; 
+    --index : 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(rgb(46, 46, 46), rgb(20, 20, 20));
+    transition: 0.5s ease;
+    position: relative;
+}
+h1{
+    color: white;
+    font-family: "Alan Sans", sans-serif;
+}
+
+#fundo{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+#main-box{
+    height: 80px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.2); 
+    z-index: 2;
+}
+#main-box1{
+    height: 80px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
+    transition: 0.5s;
+    z-index: 3;
+}
+#main-box2{
+    height: 80px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
+    transition: 0.5s;
+    z-index: 4;
+}
+#main-box3{
+    height: 80px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
+    transition: 0.5s;
+    z-index: 5;
+}
+
+
+
+
+
