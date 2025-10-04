@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-:root{
-    --opacidade: 1;
-    --blur-do-fundo: 0px; 
-    --index : 0;
-}
+
 
 body{
     display: flex;
