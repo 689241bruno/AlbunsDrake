@@ -15,7 +15,9 @@ mainBox.addEventListener("mouseover", function () {
   mainBox1.style.zIndex = 0;
   mainBox2.style.zIndex = 0;
   mainBox3.style.zIndex = 0;
+
   fundo.style.backdropFilter = "blur(3px)";
+  fundo.style.backgroundColor = "rgba(32, 32, 32, 0.73), 0.77)";
 
   console.log(mainBox.style.zIndex);
   console.log(mainBox1.style.zIndex);
@@ -47,7 +49,9 @@ mainBox1.addEventListener("mouseover", function () {
   mainBox2.style.zIndex = 0;
   mainBox3.style.zIndex = 0;
   mainBox.style.zIndex = 0;
+
   fundo.style.backdropFilter = "blur(3px)";
+  fundo.style.backgroundColor = "rgba(32, 32, 32, 0.73), 0.77)";
 
   console.log(mainBox.style.zIndex);
   console.log(mainBox1.style.zIndex);
@@ -66,7 +70,8 @@ mainBox1.addEventListener("mouseout", function () {
   mainBox3.style.zIndex = 2;
 
   fundo.style.backdropFilter = "blur(0px)";
-  fundo.style.backgroundColor = "transparent";
+  fundo.style.backgroundColor = "trasnparent";
+
   sourceVideo.src = "#";
 });
 
@@ -79,7 +84,9 @@ mainBox2.addEventListener("mouseover", function () {
   mainBox1.style.zIndex = 0;
   mainBox3.style.zIndex = 0;
   mainBox.style.zIndex = 0;
+
   fundo.style.backdropFilter = "blur(3px)";
+  fundo.style.backgroundColor = "rgba(32, 32, 32, 0.73), 0.77)";
 
   console.log(mainBox.style.zIndex);
   console.log(mainBox1.style.zIndex);
@@ -112,12 +119,13 @@ mainBox3.addEventListener("mouseover", function () {
   mainBox2.style.zIndex = 0;
   mainBox.style.zIndex = 0;
 
+  fundo.style.backdropFilter = "blur(3px)";
+  fundo.style.backgroundColor = "rgba(32, 32, 32, 0.73), 0.77)";
+
   console.log(mainBox.style.zIndex);
   console.log(mainBox1.style.zIndex);
   console.log(mainBox2.style.zIndex);
   console.log(mainBox3.style.zIndex);
-
-  fundo.style.backdropFilter = "blur(3px)";
 
   sourceVideo.src = "drake4.mp4";
 });
