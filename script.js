@@ -17,6 +17,11 @@ mainBox.addEventListener("mouseover", function () {
   mainBox3.style.zIndex = 0;
   fundo.style.backdropFilter = "blur(3px)";
 
+  console.log(mainBox.style.zIndex);
+  console.log(mainBox1.style.zIndex);
+  console.log(mainBox2.style.zIndex);
+  console.log(mainBox3.style.zIndex);
+
   sourceVideo.src = "drake.mp4";
 });
 
@@ -24,9 +29,9 @@ mainBox.addEventListener("mouseout", function () {
   mainBox.style.height = "80px";
   mainBox.style.width = "400px";
   mainBox.style.zIndex = 2;
-  mainBox1.style.zIndex = 3;
-  mainBox2.style.zIndex = 4;
-  mainBox3.style.zIndex = 5;
+  mainBox1.style.zIndex = 2;
+  mainBox2.style.zIndex = 2;
+  mainBox3.style.zIndex = 2;
 
   fundo.style.backdropFilter = "blur(0px)";
   fundo.style.backgroundColor = "transparent";
@@ -44,15 +49,22 @@ mainBox1.addEventListener("mouseover", function () {
   mainBox.style.zIndex = 0;
   fundo.style.backdropFilter = "blur(3px)";
 
+  console.log(mainBox.style.zIndex);
+  console.log(mainBox1.style.zIndex);
+  console.log(mainBox2.style.zIndex);
+  console.log(mainBox3.style.zIndex);
+
   sourceVideo.src = "drake2.mp4";
 });
 
 mainBox1.addEventListener("mouseout", function () {
   mainBox1.style.height = "80px";
   mainBox1.style.width = "400px";
-  mainBox.style.zIndex = 3;
-  mainBox2.style.zIndex = 4;
-  mainBox3.style.zIndex = 5;
+  mainBox1.style.zIndex = 2;
+  mainBox.style.zIndex = 2;
+  mainBox2.style.zIndex = 2;
+  mainBox3.style.zIndex = 2;
+
   fundo.style.backdropFilter = "blur(0px)";
   fundo.style.backgroundColor = "transparent";
   sourceVideo.src = "#";
@@ -69,15 +81,22 @@ mainBox2.addEventListener("mouseover", function () {
   mainBox.style.zIndex = 0;
   fundo.style.backdropFilter = "blur(3px)";
 
+  console.log(mainBox.style.zIndex);
+  console.log(mainBox1.style.zIndex);
+  console.log(mainBox2.style.zIndex);
+  console.log(mainBox3.style.zIndex);
+
   sourceVideo.src = "drake3.mp4";
 });
 
 mainBox2.addEventListener("mouseout", function () {
   mainBox2.style.height = "80px";
   mainBox2.style.width = "400px";
-  mainBox1.style.zIndex = 3;
-  mainBox.style.zIndex = 4;
-  mainBox3.style.zIndex = 5;
+  mainBox2.style.zIndex = 2;
+  mainBox1.style.zIndex = 2;
+  mainBox.style.zIndex = 2;
+  mainBox3.style.zIndex = 2;
+
   fundo.style.backdropFilter = "blur(0px)";
   fundo.style.backgroundColor = "transparent";
   sourceVideo.src = "#";
@@ -92,17 +111,25 @@ mainBox3.addEventListener("mouseover", function () {
   mainBox1.style.zIndex = 0;
   mainBox2.style.zIndex = 0;
   mainBox.style.zIndex = 0;
+
+  console.log(mainBox.style.zIndex);
+  console.log(mainBox1.style.zIndex);
+  console.log(mainBox2.style.zIndex);
+  console.log(mainBox3.style.zIndex);
+
   fundo.style.backdropFilter = "blur(3px)";
-  fundo.style.backgroundColor = "rgba(29, 29, 29, 0.62)";
+
   sourceVideo.src = "drake4.mp4";
 });
 
 mainBox3.addEventListener("mouseout", function () {
   mainBox3.style.height = "80px";
   mainBox3.style.width = "400px";
-  mainBox1.style.zIndex = 3;
-  mainBox.style.zIndex = 4;
-  mainBox2.style.zIndex = 5;
+  mainBox3.style.zIndex = 2;
+  mainBox.style.zIndex = 2;
+  mainBox1.style.zIndex = 2;
+  mainBox2.style.zIndex = 2;
+
   fundo.style.backdropFilter = "blur(0px)";
   fundo.style.backgroundColor = "transparent";
   sourceVideo.src = "#";
